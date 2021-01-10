@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SCiNFOVIS - Talking about science in the World</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script src="bin/d3.js"></script>
+    <script src="bin/topojson.v1.min.js"></script>
+    <script src="bin/jquery.min.js"></script>
+    <script src="map.js"></script>
+    <script src="twitter-geo-stream.js?z=z"></script>
+</head>
+<body bgcolor="#1b1b1b">
+<div id="map"></div>
+
+<div class="custom-tooltip">
+    <div class="title"></div>
+</div>
+<div class="Clock-tooltip">
+    <div class="title"></div>
+</div>
+<!--<script src="twittForce.js"></script>-->
+<script language="JavaScript">
+
+
+        streamGeoDataOnPort(5000);
+
+
+</script>
+</body>
+</html>
