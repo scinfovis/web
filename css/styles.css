@@ -1,0 +1,212 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+svg {
+  background-color: #1b1b1b;
+}
+
+.land {
+  fill: rgba(83, 83, 83, 0.98);
+    stroke: #444444;
+    stroke-width: .5px;
+}
+
+.boundary {
+  fill: rgba(92, 92, 92, 0.98);;
+  stroke: #444444;
+  stroke-width: .5px;
+}
+
+.point {
+    stroke-width: 15;
+    stroke-opacity: 0.05;
+    stroke: #25b293;
+  opacity: 1;
+}
+.point2 {
+    opacity: 1;
+}
+
+.radar-ping {
+  fill: none;
+}
+.arc {
+  fill: none;
+  stroke-width: 0.6px;
+  stroke-linecap: round;
+  stroke-dasharray:"20, 10" ;
+}
+.graticule {
+    fill: none;
+    stroke: rgba(119, 119, 119, 0.88);
+    stroke-width: 0.5px;
+    stroke-opacity: 0.5;
+}
+.boundary {
+    fill: none;
+    stroke: rgb(56, 56, 56);
+    stroke-width: 0.5px;
+}
+.hashtext{
+
+    font-weight:100;
+    font-family: sans-serif;
+    font-size: 10px;
+
+}
+.Titletext{
+
+    font-family: Helvetica;
+    font-size: 16pt;
+    fill:#25b293;
+}
+.rects{
+    fill:#242424;
+}
+.bigCircle{fill:none;stroke:#25B293;stroke-width:1;stroke-opacity:0.2;}
+
+
+.SecondCircle{fill:none;stroke: #373737;}
+
+
+.thirdCircle{
+    fill:none;
+    stroke:#25B293;
+    stroke-width:.5px;
+    stroke-opacity: .5}
+
+.side_circle_lines{
+    stroke: #339999;
+    stroke-opacity: 30%;
+    stroke-width: 1px;
+}
+.timeLabels{
+
+    fill: #a88950;
+    opacity: .6;
+    font-size: 7.5pt;
+}
+.HashLabels
+{
+
+
+    font-weight:100;
+    font-family: sans-serif;
+    font-size: 10px;
+
+}
+.part-3_title{
+
+    fill: #5f5f5f;
+    font-weight:100;
+
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.titlePart2{
+
+    font-weight:200;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.titlePart2_scinece{
+
+    font-weight:200;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.MainTitle{
+
+    font-weight:bold;
+
+    font-family: Helvetica;
+    font-size: 27px;
+}
+
+/* tooltip */
+.container{
+    position:relative;
+}
+.custom-tooltip{
+    position:absolute;
+    min-height:10px;
+    padding:2px 2px;
+    width: 120px;
+    background: #242424;
+    color: #999999;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,.1);
+    top:0;
+    left:0;
+    visibility:hidden;
+    opacity:0;
+}
+.Clock-tooltip{
+    position:absolute;
+    min-height:10px;
+    padding:2px 2px;
+    background: #242424;
+    color: #999999;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,.1);
+    top:0;
+    left:0;
+    visibility:hidden;
+    opacity:0;
+}
+
+
+
+.tooltip_tweet
+{
+    font-family:Avenir;
+    font-size: 5pt;
+}
+.img_profile {
+    float: left;
+    margin: 0 0 0px 0px;
+}
+.txt_profile{
+    float: right;
+    width: 40px;
+}
+td{
+    font-family:Avenir;
+    width: 120px;
+    font-size: 7pt;
+}
+.popperClass{
+    fill:#25B293;
+}
+.dotLine{
+    stroke:#5184AF;
+    stroke-width:20;
+    stroke-linecap:'round';
+    stroke-dasharray:'1, 30'
+}
+.arcPathText{
+    fill: #25b293;
+    opacity:.5;
+    font-size: 9pt;
+}
+.st6{fill:none;stroke:#25B293;}
+.st7{fill:#25B293;}
+
+.st6_2{fill:none;stroke:#25B293; stroke-opacity: .4}
+.st7_2{fill:#25B293;  opacity: .4}
+
+.st31{fill:none;stroke:#25B293;stroke-opacity:0.2;}
+.st32{fill:none;stroke:#25B293;}
+.st59{display:none;}
+.st60{display:inline;fill:none;stroke:#25B293;stroke-opacity:0.2;}
+.st0{fill:#AEAEAF;}
+.st1{font-family:'AvenirNext-UltraLight';}
+.st2{font-size:16.1421px;}
+.st3{fill:#2FB193;}
+
+.PART_3_vertical_lines{
+    stroke: #2FB193;
+    stroke-width: .5;
+    stroke-opacity: .3;
+}
